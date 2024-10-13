@@ -36,3 +36,20 @@ button {
 .edit{
   background-color: yellow;
 }
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: 1px solid;
+  margin: 5px;
+}
+
+.slide{
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+  overflow-x: scroll;
+}
